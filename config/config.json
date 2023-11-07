@@ -3,7 +3,7 @@
     "username": "paolo",
     "password": "Password1234",
     "database": "cimt",
-    "host": "localhost",
+    "host": "root",
     "dialect": "mysql"
   },
   "test": {
