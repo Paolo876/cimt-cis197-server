@@ -4,15 +4,7 @@ const cors = require("cors");
 const db = require("./models"); //import tables from models folder
 
 app.use(express.json());
-// app.use(cors());    //to allow api connection from computer to react project
-app.use(cors(
-    {
-        credentials: true, 
-        origin:  "http://localhost:3000",
-        methods: ["POST", "GET", "PUT", "DELETE", "OPTIONS"],
-        preflightContinue: true,
-        allowedHeaders: ['Content-Type', 'Authorization', "Cookie"],
-}));//to allow api connection from computer to react project
+app.use(cors());    //to allow api connection from computer to react project
 
 // routers
 app.use("/auth", require("./routes/Users"));

@@ -1,8 +1,8 @@
 {
   "development": {
     "username": "paolo",
-    "password": "password",
-    "database": "cis197-cimt",
+    "password": "Password1234",
+    "database": "cimt",
     "host": "localhost",
     "dialect": "mysql"
   },
